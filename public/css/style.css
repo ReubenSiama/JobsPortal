@@ -1,0 +1,43 @@
+.home-content{
+    background-image: url('https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: rgba(241, 241, 241, 0.557);
+}
+footer{
+    padding: 1rem;
+    background-color: rgb(15, 15, 63);
+    color: white;
+}
+.register-home{
+    background: linear-gradient(rgba(15,15,63,.5), rgba(15,15,63,.5)), url("http://www.soundlinesgroup.in/wp-content/uploads/2017/10/career.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: white;
+}
+.large-font-fa{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
+.contact-link:hover{
+    text-decoration: none;
+    color: gray;
+}
+@media screen and (max-width: 500px){
+    .large-font-fa{
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+}
+.admin-table{
+    height: 400px;
+}
